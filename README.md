@@ -70,8 +70,8 @@ mkdir database
 
 ## Author
 
-Adham Nabil Megahed Megahed Elsharkawi
-Mirko Palone
+- Adham Nabil Megahed Megahed Elsharkawi
+- Mirko Palone
 
 ------------------------------------------------------------------------
 
