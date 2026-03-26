@@ -37,21 +37,28 @@ performing statistical queries using SQL.
 
 ### macOS / Linux
 
-javac -cp "lib/*" -d bin \$(find src/main/java -name "*.java") java -cp
-"bin:lib/\*" app.Main
+```bash
+javac -cp "lib/*" -d bin $(find src/main/java -name "*.java")
+java -cp "bin:lib/*" app.Main
+```
 
 ### Windows
 
-javac -cp "lib/*" -d bin
-src`\main`{=tex}`\java`{=tex}`\app`{=tex}\*.java
-src`\main`{=tex}`\java`{=tex}`\db`{=tex}\*.java
-src`\main`{=tex}`\java`{=tex}`\service`{=tex}\*.java
-src`\main`{=tex}`\java`{=tex}`\util`{=tex}\*.java java -cp "bin;lib/*"
-app.Main
+```powershell
+javac -encoding UTF-8 -cp "lib/*" -d bin src\main\java\app\*.java src\main\java\db\*.java src\main\java\service\*.java src\main\java\util\*.java
+
+java -cp "bin;lib/*" app.Main
+```
+
+You must have the database folder if not run this command
+```bash
+mkdir database
+```
+
 
 ------------------------------------------------------------------------
 
-## 🧠 Concepts
+## Concepts
 
 -   JDBC connectivity
 -   SQL queries
@@ -61,9 +68,10 @@ app.Main
 
 ------------------------------------------------------------------------
 
-## 👤 Author
+## Author
 
 Adham Nabil Megahed Megahed Elsharkawi
+Mirko Palone
 
 ------------------------------------------------------------------------
 
