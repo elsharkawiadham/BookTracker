@@ -13,11 +13,11 @@ public class ReadingHabitService {
 
             if (rs.next()) {
                 int total = rs.getInt("totalPages");
-                System.out.println("📚 Total pages read: " + total);
+                System.out.println("Total pages read: " + total);
             }
 
         } catch (Exception e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
     public static void getUsersPerBook(Connection conn, String bookName) {
@@ -35,7 +35,7 @@ public class ReadingHabitService {
             }
 
         } catch (Exception e) {
-        System.out.println("❌ Error: " + e.getMessage());
+        System.out.println("Error: " + e.getMessage());
         }
     }
     public static void getUsersWithMultipleBooks(Connection conn) {
@@ -56,11 +56,11 @@ public class ReadingHabitService {
 
             if (rs.next()) {
                 int total = rs.getInt("totalUsers");
-                System.out.println("📚 Users with more than one book: " + total);
+                System.out.println("Users with more than one book: " + total);
             }
 
         } catch (Exception e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
@@ -79,7 +79,7 @@ public class ReadingHabitService {
             System.out.println("✏️ Updated rows: " + rowsUpdated);
 
         } catch (Exception e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
@@ -95,13 +95,13 @@ public class ReadingHabitService {
             int rowsDeleted = ps.executeUpdate();
 
             if (rowsDeleted > 0) {
-                System.out.println("🗑️ Record deleted successfully!");
+                System.out.println("Record deleted successfully!");
             } else {
-                System.out.println("⚠️ No record found with that ID.");
+                System.out.println("No record found with that ID.");
             }
 
         } catch (Exception e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
     public static void getReadingHabitsByUser(Connection conn, int userId) {
@@ -131,11 +131,11 @@ public class ReadingHabitService {
             }
 
             if (!found) {
-                System.out.println("⚠️ No habits found for this user.");
+                System.out.println("No habits found for this user.");
             }
 
         } catch (Exception e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }
