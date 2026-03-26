@@ -44,10 +44,10 @@ public class CSVLoader {
                 ps.executeUpdate();
             }
 
-            System.out.println("✅ CSV data loaded!");
+            System.out.println("CSV data loaded!");
 
         } catch (Exception e) {
-            System.out.println("❌ Error loading CSV: " + e.getMessage());
+            System.out.println("Error loading CSV: " + e.getMessage());
         }
     }
 }
