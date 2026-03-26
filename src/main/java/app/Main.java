@@ -15,11 +15,11 @@ public class Main {
         Connection conn = DatabaseManager.connect();
 
         if (conn == null) {
-            System.out.println("❌ Database connection failed.");
+            System.out.println("Database connection failed!!");
             return;
         }
 
-        System.out.println("✅ Database is working!");
+        System.out.println("Database is working!");
 
         DatabaseManager.createTables(conn);
         CSVLoader.loadCSV(conn, "src/main/resources/data.csv");
@@ -54,7 +54,7 @@ public class Main {
                     System.out.print("Enter age: ");
                     int age = scanner.nextInt();
 
-                    scanner.nextLine(); // clear buffer
+                    scanner.nextLine();
                     System.out.print("Enter name: ");
                     String name = scanner.nextLine();
 
@@ -69,7 +69,7 @@ public class Main {
                     break;
 
                 case 3:
-                    scanner.nextLine(); // clear buffer
+                    scanner.nextLine(); 
                     System.out.print("Enter old book title: ");
                     String oldTitle = scanner.nextLine();
 
@@ -91,7 +91,7 @@ public class Main {
                     break;
 
                 case 6:
-                    scanner.nextLine(); // clear buffer
+                    scanner.nextLine();
                     System.out.print("Enter book name: ");
                     String book = scanner.nextLine();
 
@@ -107,11 +107,11 @@ public class Main {
                     break;
 
                 case 0:
-                    System.out.println("👋 Exiting BookTracker. Bye!");
+                    System.out.println("Exiting BookTracker. Bye!");
                     break;
 
                 default:
-                    System.out.println("⚠️ Invalid option. Try again.");
+                    System.out.println("Invalid option. Try again.");
             }
 
         } while (choice != 0);
