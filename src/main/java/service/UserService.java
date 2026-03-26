@@ -34,10 +34,10 @@ public class UserService {
                 ps.executeUpdate();
             }
 
-            System.out.println("✅ Users generated!");
+            System.out.println("Users generated!");
 
         } catch (Exception e) {
-            System.out.println("❌ Error generating users: " + e.getMessage());
+            System.out.println("Error generating users: " + e.getMessage());
         }
     }
     
@@ -54,10 +54,10 @@ public class UserService {
 
             ps.executeUpdate();
 
-            System.out.println("✅ User added successfully!");
+            System.out.println("User added successfully!");
 
         } catch (Exception e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
     public static void getMeanAge(Connection conn) {
@@ -70,11 +70,11 @@ public class UserService {
 
         if (rs.next()) {
             double meanAge = rs.getDouble("meanAge");
-            System.out.println("📊 Mean age: " + meanAge);
+            System.out.println("Mean age: " + meanAge);
         }
 
     } catch (Exception e) {
-        System.out.println("❌ Error: " + e.getMessage());
+        System.out.println("Error: " + e.getMessage());
     }
 }
 }
