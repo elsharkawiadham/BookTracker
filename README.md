@@ -45,6 +45,7 @@ java -cp "bin:lib/*" app.Main
 ### Windows
 
 ```powershell
+cd \BookTracker-main
 javac -encoding UTF-8 -cp "lib/*" -d bin src\main\java\app\*.java src\main\java\db\*.java src\main\java\service\*.java src\main\java\util\*.java
 
 java -cp "bin;lib/*" app.Main
