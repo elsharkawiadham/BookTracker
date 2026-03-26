@@ -11,11 +11,11 @@ public class DatabaseManager {
     try {
         Class.forName("org.sqlite.JDBC");
         Connection conn = DriverManager.getConnection(URL);
-        System.out.println("✅ Connected to SQLite!");
+        System.out.println("Connected to SQLite!");
         return conn;
 
     } catch (Exception e) {
-        System.out.println("❌ Error: " + e.getMessage());
+        System.out.println("Error: " + e.getMessage());
         return null;
     }
 }
@@ -45,9 +45,9 @@ public class DatabaseManager {
         Statement stmt = conn.createStatement();
         stmt.execute(userTable);
         stmt.execute(readingHabitTable);
-        System.out.println("✅ Tables created successfully!");
+        System.out.println("Tables created successfully!");
     } catch (Exception e) {
-        System.out.println("❌ Error creating tables: " + e.getMessage());
+        System.out.println("Error creating tables: " + e.getMessage());
     }
 }
 }
