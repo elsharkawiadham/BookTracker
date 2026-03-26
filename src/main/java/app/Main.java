@@ -30,18 +30,18 @@ public class Main {
 
         do {
             System.out.println("\n==============================");
-            System.out.println("📚   BOOKTRACKER MENU");
+            System.out.println("    BOOKTRACKER MENU");
             System.out.println("==============================");
-            System.out.println("1️⃣  Add User");
-            System.out.println("2️⃣  Show User Reading Habits");
-            System.out.println("3️⃣  Update Book Title");
-            System.out.println("4️⃣  Delete Reading Habit");
-            System.out.println("5️⃣  Mean Age");
-            System.out.println("6️⃣  Users per Book");
-            System.out.println("7️⃣  Total Pages Read");
-            System.out.println("8️⃣  Users with >1 Book");
-            System.out.println("0️⃣  Exit");
-            System.out.print("👉 Choose an option: ");
+            System.out.println("[1] Add User");
+            System.out.println("[2] Show User Reading Habits");
+            System.out.println("[3] Update Book Title");
+            System.out.println("[4] Delete Reading Habit");
+            System.out.println("[5] Mean Age");
+            System.out.println("[6] Users per Book");
+            System.out.println("[7] Total Pages Read");
+            System.out.println("[8] Users with >1 Book");
+            System.out.println("[0] Exit");
+            System.out.print("==>Choose an option: ");
 
             choice = scanner.nextInt();
 
