@@ -76,7 +76,7 @@ public class ReadingHabitService {
 
             int rowsUpdated = ps.executeUpdate();
 
-            System.out.println("✏️ Updated rows: " + rowsUpdated);
+            System.out.println("Updated rows: " + rowsUpdated);
 
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
@@ -124,7 +124,7 @@ public class ReadingHabitService {
                 int pages = rs.getInt("pagesRead");
                 String date = rs.getString("submissionMoment");
 
-                System.out.println("📖 ID: " + habitID +
+                System.out.println("ID: " + habitID +
                         " | Book: " + book +
                         " | Pages: " + pages +
                         " | Date: " + date);
