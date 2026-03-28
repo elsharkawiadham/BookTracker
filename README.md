@@ -10,6 +10,8 @@ The application supports adding users, managing reading records, and
 performing statistical queries using SQL.
 
 ------------------------------------------------------------------------
+Link to Github: https://github.com/elsharkawiadham/BookTracker.git
+------------------------------------------------------------------------
 
 ## Technologies Used
 
