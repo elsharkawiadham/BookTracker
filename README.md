@@ -29,8 +29,14 @@ https://github.com/elsharkawiadham/BookTracker.git
 7.  Calculate total pages read\
 8.  Count users who read more than one book
 
-## Compile & Run
+##  Installation and Setup
 
+- Download the project as a ZIP file from GitHub
+- Extract (unzip) the folder on your computer
+- Open a terminal in the project directory
+- Run the required commands as described below
+
+## Compile & Run
 ### macOS
 
 ```bash
