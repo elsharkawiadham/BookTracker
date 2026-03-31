@@ -1,5 +1,4 @@
 # BookTracker Application
-
 ## Overview
 
 BookTracker is a command-line Java application that allows users to
@@ -10,9 +9,9 @@ The application supports adding users, managing reading records, and
 performing statistical queries using SQL.
 
 ------------------------------------------------------------------------
-Link to Github: https://github.com/elsharkawiadham/BookTracker.git
+## Link to Github:
+https://github.com/elsharkawiadham/BookTracker.git
 ------------------------------------------------------------------------
-
 ## Technologies Used
 
 -   Java (JDK 17+ recommended)
@@ -21,7 +20,6 @@ Link to Github: https://github.com/elsharkawiadham/BookTracker.git
 -   SLF4J (logging dependency)
 
 ------------------------------------------------------------------------
-
 ## Features
 
 1.  Add a user\
@@ -73,50 +71,49 @@ After running the program, a menu will appear in the terminal:
 
 Enter the number corresponding to the desired functionality and follow the instructions.
 1. Add User
-	•	Insert a new user into the database
-	•	Input required:
-	•	User ID (integer)
-	•	Age (integer)
-	•	Name (string)
+   - Insert a new user into the database
+   - Input required:
+   - User ID (integer)
+   - Age (integer)
+   - Name (string)
 
-2. Show User Reading Habits
-	•	Displays all reading records for a specific user
-	•	Input required:
-	•	User ID
+3. Show User Reading Habits
+   - Displays all reading records for a specific user
+   - Input required:
+   - User ID
 
-3. Update Book Title
-	•	Updates the title of a book in all related records
-	•	Input required:
-	•	Old book title
-	•	New book title
+4. Update Book Title
+   - Updates the title of a book in all related records
+   - Input required:
+   - Old book title
+   - New book title
 
-4. Delete Reading Habit
-	•	Deletes a specific reading record
-	•	Input required:
-	•	Habit ID
+5. Delete Reading Habit
+   - Deletes a specific reading record
+   - Input required:
+   - Habit ID
 
-5. Mean Age
-	•	Displays the average age of all users
-	•	No input required
+7. Mean Age
+   - Displays the average age of all users
+   - No input required
 
-6. Users per Book
-	•	Shows how many users have read a specific book
-	•	Input required:
-	•	Book title
+9. Users per Book
+   - Shows how many users have read a specific book
+   - Input required:
+   - Book title
 
-7. Total Pages Read
-	•	Displays the total number of pages read across all users
-	•	No input required
+10. Total Pages Read
+   - Displays the total number of pages read across all users
+   - No input required
 
-8. Users with More Than One Book
-	•	Displays the number of users who have read more than one book
-	•	No input required
+11. Users with More Than One Book
+    - Displays the number of users who have read more than one book
+    - No input required
 
 0. Exit
-	•	Closes the application
+   - Closes the application
 
 ------------------------------------------------------------------------
-
 ## Concepts
 
 -   JDBC connectivity
@@ -126,14 +123,12 @@ Enter the number corresponding to the desired functionality and follow the instr
 -   PreparedStatement
 
 ------------------------------------------------------------------------
-
 ## Author
 
 - Adham Nabil Megahed Megahed Elsharkawi
 - Mirko Palone
 
 ------------------------------------------------------------------------
-
 ## Status
 
 Fully functional
