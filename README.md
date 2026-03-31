@@ -8,10 +8,9 @@ It uses SQLite as a database and JDBC for database interaction.
 The application supports adding users, managing reading records, and
 performing statistical queries using SQL.
 
-------------------------------------------------------------------------
 ## Link to Github:
 https://github.com/elsharkawiadham/BookTracker.git
-------------------------------------------------------------------------
+
 ## Technologies Used
 
 -   Java (JDK 17+ recommended)
@@ -19,7 +18,6 @@ https://github.com/elsharkawiadham/BookTracker.git
 -   JDBC (SQLite driver)
 -   SLF4J (logging dependency)
 
-------------------------------------------------------------------------
 ## Features
 
 1.  Add a user\
@@ -30,8 +28,6 @@ https://github.com/elsharkawiadham/BookTracker.git
 6.  Count users per book\
 7.  Calculate total pages read\
 8.  Count users who read more than one book
-
-------------------------------------------------------------------------
 
 ## Compile & Run
 
@@ -54,7 +50,7 @@ You must have the database folder if not run this command
 ```bash
 mkdir database
 ```
-------------------------------------------------------------------------
+
 ## How to Use the Application
 After running the program, a menu will appear in the terminal:
 
@@ -113,7 +109,6 @@ Enter the number corresponding to the desired functionality and follow the instr
 0. Exit
    - Closes the application
 
-------------------------------------------------------------------------
 ## Concepts
 
 -   JDBC connectivity
@@ -122,13 +117,10 @@ Enter the number corresponding to the desired functionality and follow the instr
 -   GROUP BY & HAVING
 -   PreparedStatement
 
-------------------------------------------------------------------------
 ## Author
 
 - Adham Nabil Megahed Megahed Elsharkawi
 - Mirko Palone
 
-------------------------------------------------------------------------
 ## Status
-
 Fully functional
