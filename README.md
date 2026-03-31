@@ -37,14 +37,14 @@ Link to Github: https://github.com/elsharkawiadham/BookTracker.git
 
 ## Compile & Run
 
-### macOS / Linux
+### macOS
 
 ```bash
 javac -cp "lib/*" -d bin $(find src/main/java -name "*.java")
 java -cp "bin:lib/*" app.Main
 ```
 
-### Windows
+### Windows/Linux
 
 ```powershell
 cd BookTracker-main
